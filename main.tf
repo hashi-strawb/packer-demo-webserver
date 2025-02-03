@@ -34,7 +34,7 @@ data "aws_region" "current" {}
 module "vpc" {
   # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest 
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.15.0"
+  version = "5.18.1"
 
   name = var.vpc_name
   cidr = "10.0.0.0/16"
